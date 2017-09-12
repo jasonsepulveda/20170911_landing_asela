@@ -65,7 +65,7 @@
 	text-align: center;
 	color: #fff;
 }
-h1, h2, h4, #col3 li {
+h1, h2, h4, #col3 li, #h5Gracias, #h3Gracias {
 	color: #fff;
 }
 h1 {
@@ -85,19 +85,29 @@ h6 {
 #row6 p {
 	padding-left: 30px;
 	padding-right: 30px;
+	font-style: italic;
+	color: #888;
 }
 .rounded-circle {
 	margin-bottom: 20px;
 }
-.footer {
+.footer, #h5Gracias {
 	background-color: #432d80;
 	height: 100%;
 	max-width: 100%;
 	color: #ccc;
 	font-size: 0.7rem;
 	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
-
+#h5Gracias {
+		text-align: left;
+}
+.btn {
+	color: #fff;
+}
 @media only screen and (min-width : 330px) {
 	h2 {
 		font-size: 1.5rem;
@@ -105,7 +115,7 @@ h6 {
 	h1 {
 		font-size: 2rem;
 	}
-	#logo {
+	#logo, #h2Gracias, #h1Gracias, #h5Gracias, .btn {
 		text-align: center;
 	}
 }
@@ -118,7 +128,7 @@ h6 {
 	}
 }
 @media only screen and (min-width : 768px) {
-	#logo {
+	#logo, #h2Gracias, #h1Gracias, #h5Gracias, .btn {
 		text-align: left;
 	}
 }
